@@ -12,9 +12,9 @@ body {
   padding: 10px 0;
   transition: width 3s;
 }
-.header:hover {
+/* .header:hover {
   width: 70%;
-}
+} */
 
 .header__content {
   display: flex;
