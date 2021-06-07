@@ -72,3 +72,18 @@ body {
 .project {
   width: 455px;
 }
+.project > iframe > html > body > div > footer {
+  display: none !important;
+}
+
+
+
+#texto-cambia-contenedor:hover #texto-cambia-2 {
+  display: flex;
+}
+#texto-cambia-contenedor:hover #texto-cambia-1 {
+  display: none;
+}
+#texto-cambia-2 {
+  display: none;
+}

@@ -45,12 +45,38 @@
           quaerat voluptate esse? Culpa, ipsa doloribus expedita necessitatibus eaque voluptate veritatis explicabo? Sed
           itaque provident repellat animi.</p>
       </div>
-      <div class="project" style="position:relative;height:0;padding-bottom:117.6%;overflow:hidden;"><iframe
-          style="position:absolute;top:0;left:0;width:100%;height:100%;"
-          src="https://arcade.makecode.com/---run?id=_dkFcxsDrPf5K" allowfullscreen="allowfullscreen"
-          sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+      <div class="project">
+        <div  style="position:relative;height:0;padding-bottom:117.6%;overflow:hidden;"><iframe
+            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+            src="https://arcade.makecode.com/---run?id=_dkFcxsDrPf5K" allowfullscreen="allowfullscreen"
+            sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"
+            onload="show()"></iframe></div>
+      </div>
     </div>
   </section>
+
+  <div id="texto-cambia-contenedor">
+    <h2 id="texto-cambia-1">¡Buenos días!</h2>
+    <h2 id="texto-cambia-2">¡Buenos tardes!</h2>
+  </div>
+
+  <h2 id="javascript-texto">Cracken es crack</h2>
+
+  <script>
+    // setTimeout(_ => {
+    //   const tag = document.querySelector('.project iframe')
+    //   const element = tag.contentWindow.content
+    //   console.log(element)
+    // }, 30000)
+
+    function show() {
+      const tag = document.querySelector('.project iframe')
+      const element = tag.contentWindow
+      console.log(element)
+    }
+  </script>
+
+  <script src="index.js"></script>
 </body>
 
 </html>
