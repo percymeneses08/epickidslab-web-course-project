@@ -10,11 +10,14 @@ body {
   /* height: 80px; */
   background-color: #44da99;
   padding: 10px 0;
-  transition: width 3s;
+  transition: 3s;
 }
-/* .header:hover {
-  width: 70%;
-} */
+.header {
+  background-color: blue;
+}
+.header:hover {
+  background-color: red;
+}
 
 .header__content {
   display: flex;
